@@ -19,7 +19,7 @@ repositories {
 Add compile statement to your gradle file dependencies section:
 
 ```groovy
-compile ('ru.yandex:mapkit-android:14.1.1.0@aar') {transitive=true}
+compile 'ru.yandex:mapkit-android:14.1.1.0@aar'
 ```
 
 Enjoy and hope that one day, maybe in 2020 or 2040, Yandex will finally release its new and modern map sdk for Android :)
