@@ -1,7 +1,13 @@
 Yandex MapKit-Android, repackaged for gradle and maven
 ===
 
-This is a fork from the official (and unsupported for years) YandexMapKit-Android maps library, simply repackaged into the AAR/Maven form and uploaded to maven repo.
+This is a fork from the official (and unsupported for years) YandexMapKit-Android maps library, simply repackaged into the AAR/Maven form and uploaded to maven repo. The main goal is to simplify inclusion to a modern, gradle powered android projects.
+
+Android 6.0 Important Information
+---
+Current YandexMapKit will not work on android 6.0+ due to relocated symbols bug, see the original issue here: https://github.com/yandexmobile/yandexmapkit-android/issues/201
+
+At the moment, you cannot do anything with this, use Google Maps or OSM instead, until the issue is either fixed by Yandex or YandexMapKit 2.0 released. However, if you'll find a solution to workaround this, please let me know too :)
 
 Usage
 ---
