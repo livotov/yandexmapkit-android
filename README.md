@@ -1,7 +1,8 @@
 Yandex MapKit-Android, repackaged for gradle and maven
 ===
  
-This is a fork from the official (and unsupported for years) YandexMapKit-Android maps library, simply repackaged into the AAR/Maven form and uploaded to the maven repo. No other modifications made.
+This is a fork from the official (and unsupported for years) YandexMapKit-Android maps library, 
+simply repackaged into the AAR/Maven form and uploaded to the maven repo. No other modifications was made.
 
 [ ![Download](https://api.bintray.com/packages/livotovlabs/maven/YandexMapKit/images/download.svg) ](https://bintray.com/livotovlabs/maven/YandexMapKit/_latestVersion)
 
@@ -27,7 +28,7 @@ repositories {
 ```
 
 ```groovy
-compile ('ru.yandex:mapkit-android:14.1.1.0@aar') {transitive=true}
+compile ('eu.livotov.labs.android:yandexmapkit-library:2.0.0@aar') {transitive=true}
 ```
 
 Enjoy and hope that one day, maybe in 2020 or 2040, Yandex will finally release their new and modern map sdk for Android :)
