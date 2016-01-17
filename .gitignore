@@ -1,5 +1,4 @@
 .gradle
-/local.properties
 /.idea
 .DS_Store
 *.iml
@@ -7,3 +6,5 @@
 /build
 /captures
 gradle-local.properties
+local.properties
+maven.secret.properties

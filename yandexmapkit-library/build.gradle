@@ -20,6 +20,8 @@ android {
     defaultConfig {
         minSdkVersion 14
         targetSdkVersion 23
+        versionCode 1
+        versionName 'YMK'
     }
 }
 
@@ -27,4 +29,4 @@ dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
 }
 
-apply from: 'https://raw.github.com/chrisbanes/gradle-mvn-push/master/gradle-mvn-push.gradle'
+apply from: 'bintray-publish.gradle'
