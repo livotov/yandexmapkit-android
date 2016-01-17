@@ -6,6 +6,12 @@ This is a fork from the official (and unsupported for years) YandexMapKit-Androi
 [ ![Download](https://api.bintray.com/packages/livotovlabs/maven/YandexMapKit/images/download.svg) ](https://bintray.com/livotovlabs/maven/YandexMapKit/_latestVersion)
 
 
+Android 6.0 Important Information
+---
+Current YandexMapKit will not work on android 6.0+ due to relocated symbols bug, see the original issue here: https://github.com/yandexmobile/yandexmapkit-android/issues/201
+
+At the moment, you cannot do anything with this, use Google Maps or OSM instead, until the issue is either fixed by Yandex or YandexMapKit 2.0 released. However, if you'll find a solution to workaround this, please let me know too :)
+
 Usage
 ---
 
@@ -21,7 +27,7 @@ repositories {
 ```
 
 ```groovy
-compile ('eu.livotov.labs.android:yandexmapkit-library:2.0.0@aar') {transitive=true}
+compile ('ru.yandex:mapkit-android:14.1.1.0@aar') {transitive=true}
 ```
 
 Enjoy and hope that one day, maybe in 2020 or 2040, Yandex will finally release their new and modern map sdk for Android :)
